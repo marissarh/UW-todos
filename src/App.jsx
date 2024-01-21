@@ -28,6 +28,6 @@ function App() {
     </div>
     <TodoListItems todos ={todos}/>
     </>
-  
+  )}
 
 export default App
