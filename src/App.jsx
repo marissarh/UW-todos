@@ -17,7 +17,7 @@ function App() {
   setItemToAdd("");
 };
   return (
-    <>
+    <div>
     <h1>Todos</h1>
       <form onSubmit={addItem}> 
         <label htmlFor="todo-input">Todo:</label>
@@ -25,9 +25,8 @@ function App() {
         value={itemToAdd}/>
         <button type="submit">Add Todo</button>
       </form>
-    </div>
     <TodoListItems todos ={todos}/>
-    </>
-  )}
+    </div>
+  );
 
 export default App
